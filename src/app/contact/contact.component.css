@@ -1,0 +1,43 @@
+.sizedbox{
+    height: 80px;
+}
+
+.contact_heading{
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+}
+
+
+input{
+    height: 50px;
+    width: 25%;
+    margin-left: 2%;
+    background-color:white;
+    border: none;
+    outline: none;
+
+}
+
+button{
+    margin-top: 2%;
+    border-color: tomato;
+    background-color: transparent;
+    color: white;
+    height: 6%;
+    width: 6%;
+    font-size: 120%;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 25%;
+}
+
+button:hover{
+    background-color: white;
+    color: blue;
+}
+body{
+    background-color: rgb(17, 17, 69);
+    height: 800px;
+}

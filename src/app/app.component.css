@@ -1,0 +1,41 @@
+nav{
+    background-color: rgb(140, 140, 242);
+    width: 100%;
+}
+
+.navli{
+   padding-left: 50px; 
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   display: block;
+   
+}
+a{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 0.25rem;
+}
+.shortmenu{
+    display: none;
+}
+.shortmenu:hover{
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+.navli{
+    display: none;
+}
+
+.banner{
+    height: 500px;
+    width: 100%;
+    background-image: url(../assets/gitex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+}
+@media only screen and (min-width: 600px) {
+    .navli{
+        display: block;
+    }
+}

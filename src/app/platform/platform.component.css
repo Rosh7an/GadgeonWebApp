@@ -1,0 +1,27 @@
+.banner{
+    height: 500px;
+    background-image: url(../../assets/platform-banner-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.platform{
+    color: white;
+    margin-left: 300px;
+    font-size: 300%;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    border-radius: 1rem;
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    height: 500px;
+    margin-bottom: 20px;
+    font-size: 120%;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    background-color: white;
+}
